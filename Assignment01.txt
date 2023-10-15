@@ -1,0 +1,56 @@
+Chapter 01 - Inception 
+
+Theory - 
+●  What is Emmet? 
+Ans: Emmet can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abbreviation.
+ Emmet is developed and optimised for web-developers whose workflow depends on HTML/XML and CSS, but can be used with programming languages too.
+
+●  Difference between a Library and Framework?
+Ans: A module is a piece of code that may be built upon, a package is a collection of modules, a library is a collection of pre-written code, 
+	and a framework is a set of principles for developing applications.
+	The technical difference between a framework and a library is established by a theory known as “Inversion of Control” (IoC). 
+	When you use a library, you have control over the application flow, including how and when to access the library. When you use a framework, the flow is managed by the framework itself.
+ 
+●  What is CDN? Why do we use it? 
+
+Ans: A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, 
+	including HTML pages, JavaScript files, stylesheets, images, and videos.
+	The primary purpose of a content delivery network (CDN) is to reduce latency, or reduce the delay in communication created by a network's design.
+
+●  Why is React known as React? 
+Ans:	React is called "React" because of its core feature, which is its ability to "react" or respond dynamically to changes in data. 
+
+●  What is crossorigin in script tag? 
+Ans:While we are using CDN link we need to set "crossorigin" Atribute to link source file.
+
+●  What is diference between React and ReactDOM 
+Ans:React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+●  What is difference between react.development.js and react.production.js files via CDN? 
+Ans:
+react.development.js - More developer friendly, readable, will take more size.
+react.production.js - Minified code that is not developer friendly as it focused on decreasing in file size, code efficiency.
+
+●  What is async and defer? -  
+Ans:Async allows your script to run as soon as it's loaded, without blocking other elements on the page. 
+	Defer means your script will only execute after the page has finished loading.
+
+Coding - 
+●  Set up all the tools in your laptop - Done
+○  VS Code  - Done
+○  Chrome  - Done
+○  Extensions of Chrome  - Done
+●  Create a new Git repo  - Done
+●  Build your first Hello World program using,  - Done
+○  Using just HTML 
+○  Using JS to manipulate the DOM 
+○  Using React 
+■  use CDN Links 
+■  Create an Element 
+■  Create nested React Elements 
+■  Use root.render 
+●  Push code to Github (Theory as well as code) 
+●  Learn about Arrow Functions before the next class 
+References: -  
+https://beta.reactjs.org/apis/react/createElement -  
+https://www.youtube.com/watch?v=IrHmpdORLu8
